@@ -1,0 +1,135 @@
+body{
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.checkout-page{
+    height: 500px;
+    display: flex;
+    width: 800px;
+    background-color: white;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+
+/*--payment-section--*/
+.payment-section{
+    width: 60%; 
+    margin: 20px; 
+}
+.order-progress{
+    display: flex;
+    width: 400px;
+}
+
+.radio-button{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+}
+.payment{
+    margin-top: 50px;
+}
+.payment-method{
+    display: flex;
+    width: 400px;
+}
+.creditandpaypal{
+display: flex;
+text-align: center;
+width: 50%;
+}
+.creditandpaypal img{
+    height: 20px;
+    width: 25px;
+}
+#form{
+    color: #827C7C;
+    font-weight: bold;
+    border-style: none;
+    border-bottom: 3px solid #D5D6DC;
+    height: 25px;
+    width: 400px;
+}
+#card-type{
+    margin-left: -100px;
+    border: none;
+    color: #827C7C;
+}
+.expiration-section{
+    display: flex;
+    justify-content: space-between;
+    width: 405px; 
+}
+#form2{
+    font-weight: bold;
+    color: #827C7C;
+    border-style: none;
+    border-bottom: 3px solid #D5D6DC;
+    height: 25px;
+}
+#button{
+    height: 35px;
+    width: 100px;
+    margin: 10px 0 10px 40px;
+    border: 3px solid #27346A;
+    background-color: transparent;
+    font-weight: bold;
+}
+#button2{
+    height: 35px;
+    width: 200px;
+    margin: 10px 0 10px 10px;
+    border: 3px solid #27346A;
+    background-color: #27346A;
+    font-weight: bold;
+    color: white;
+}
+#button:hover, #button2:hover{
+    background-color: #767096;
+}
+#button:active, #button2:active {
+    background-color: #27346A;
+}
+*--product-display-section--*/
+.product-display-section{
+    background-color: white;
+    width: 40%;
+    position: relative;
+}
+.product-display{
+    background-color: #EAEAEB;
+    height: 460px;
+    width: 260px;
+}
+.vector{
+    width: 120px;
+    margin-left: 120px;
+    height: 450px;
+    top: 45px;
+    position: absolute;
+    transform: rotate(7deg);
+}
+.vector img{
+    width: auto;
+    height: 100%;
+}
+.product-container{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    margin-left: -70px;
+    top: 215px;
+}
+.product-container img{
+    width: 100%;
+    height: auto;
+    
+}
+.flower{
+    height: 50px;
+    width: 100px;
+   position: absolute;
+   bottom: 200px;
+   left: 100px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Checkout Page</title>
+  </head>
+  <body>
+    <section class="checkout-page">
+      <!--payment-section-->
+      <div class="payment-section">
+        <div class="order-progress">
+          <input type="radio" name="progress" value="Shipping" />
+          <hr size="3px" width="200px" color="#2E296B" />
+          <input type="radio" name="progress" value="Billing" />
+          <hr size="2px" width="200px" color="#C4C4C4" />
+          <input type="radio" name="progress" value="Confirmation" />
+        </div>
+        <div class="radio-button">
+          <label for="Shipping">Shipping</label>
+          <label for="Billing">Billing</label>
+          <label for="Confirmation" style="color: #827c7c">Confirmation</label>
+        </div>
+
+        <div class="payment">
+          <h3 style="font-weight: bold">Payment Method</h3>
+          <div class="payment-method">
+            <div class="creditandpaypal">
+              <input type="radio" name="creditOrPaypal" value="Credit Card" />
+              <img src="images/credit-card.png" alt="" />
+              <label for="Credit Card">Credit Card</label>
+            </div>
+            <div class="creditandpaypal">
+              <input type="radio" name="creditOrPaypal" value="PayPal" />
+              <img src="images/logos_paypal.png" alt="" />
+              <label for="PayPal">PayPal</label>
+            </div>
+          </div>
+          <h3>Payment Details</h3>
+          <div class="input-field">
+            <input type="text" id="form" value="Enter name on card:" /><br />
+            <input type="text" id="form" value="Card no:" />
+            <select id="card-type" name="card-type">
+              <option value="Visa">Visa</option>
+              <option value="MasterCard">MasterCard</option>
+            </select>
+            <div class="expiration-section">
+              <input
+                type="text"
+                id="form2"
+                value="Expiration:"
+                style="width: 240px"
+              />
+              <input
+                type="text"
+                id="form2"
+                value="CVY Code:"
+                style="width: 120px"
+              />
+            </div>
+          </div>
+          <p style="color: #827c7c">
+            By Checking 'Confirm Payment' I Agree <br />to the Payment and Terms
+            Conditions
+          </p>
+          <div class="button-section">
+            <input type="button" id="button" value="Back" />
+            <input type="button" id="button2" value="Confirm Payment.$15.11" />
+          </div>
+        </div>
+      </div>
+      <!--product-display-section-->
+      <div class="product-display-section">
+        <div class="product-display">
+          <h3 style="font-weight: lighter; margin: 20px 0 0 20px">
+            Curology Hand Oil control <br />
+            Mosturizer
+          </h3>
+          <h1 style="color: #34285e; margin: 20px 0 0 20px">$15.11</h1>
+          <div class="vector"><img src="images/Vector 1.png" alt="" /></div>
+          <div class="product-container">
+            <img src="images/Curology.png" alt="" />
+            <div class="flower"><img src="images/flower.png" alt="" /></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="home.js"></script>
+  </body>
+</html>
